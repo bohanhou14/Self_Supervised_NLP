@@ -4,7 +4,7 @@ import torch
 import requests
 import openai
 
-openai.api_key = "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"
+openai.api_key = MY_API_KEY
 
 def query(input):
     response = openai.Completion.create(
