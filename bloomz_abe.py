@@ -4,7 +4,7 @@ import torch
 import requests
 
 API_URL = "https://api-inference.huggingface.co/models/bigscience/bloomz"
-API_TOKEN = "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"
+API_TOKEN = MY_API_TOKEN
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
 def query(payload):
